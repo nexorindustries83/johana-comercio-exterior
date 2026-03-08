@@ -1,0 +1,1233 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultoria en Importaciones y Exportaciones | Johanna Botero</title>
+<meta name="description" content="Asesoria estrategica en comercio exterior para empresas en Colombia: importaciones, exportaciones, clasificacion arancelaria y optimizacion logistica.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#1f5fa8">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:title" content="Consultoria en Comercio Exterior | Johanna Botero">
+<meta property="og:description" content="Asesoria profesional para importar y exportar con cumplimiento normativo y rentabilidad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #edf3fb;
+  --surface: #ffffff;
+  --surface-soft: #eef5ff;
+  --ink: #10243d;
+  --muted: #516682;
+  --navy: #1f5fa8;
+  --navy-strong: #133d70;
+  --teal: #1290b3;
+  --teal-strong: #0c7896;
+  --warm: #ffd27a;
+  --ring: rgba(31, 95, 168, 0.24);
+  --shadow-soft: 0 18px 45px rgba(15, 45, 84, 0.15);
+  --shadow-card: 0 10px 28px rgba(15, 38, 70, 0.12);
+  --radius-lg: 22px;
+  --radius-md: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Public Sans", "Segoe UI", sans-serif;
+  color: var(--ink);
+  line-height: 1.6;
+  background:
+    radial-gradient(circle at 6% 8%, rgba(31, 95, 168, 0.12) 0%, transparent 38%),
+    radial-gradient(circle at 92% 4%, rgba(18, 144, 179, 0.14) 0%, transparent 36%),
+    linear-gradient(180deg, #f7fbff 0%, var(--bg) 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(31, 95, 168, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 95, 168, 0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.container {
+  width: min(1160px, 92%);
+  margin: 0 auto;
+}
+
+.section-pad {
+  padding: 64px 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -48px;
+  background: #ffffff;
+  color: var(--navy-strong);
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 2px solid var(--navy);
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 14px;
+}
+
+.top-strip {
+  padding: 8px 0;
+  text-align: center;
+  background: linear-gradient(90deg, var(--navy-strong), var(--navy));
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  padding: 16px 0;
+  backdrop-filter: blur(10px);
+  background: rgba(247, 251, 255, 0.86);
+  border-bottom: 1px solid rgba(31, 95, 168, 0.11);
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--navy), #2b79c5);
+}
+
+.brand-text {
+  display: grid;
+  line-height: 1.2;
+}
+
+.brand-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.brand-subtitle {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.88;
+  transition: opacity 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.nav a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.nav a.is-active {
+  color: var(--navy);
+  opacity: 1;
+}
+
+.btn {
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-nav {
+  padding: 10px 16px;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--teal), #2aa2c8);
+  box-shadow: 0 8px 18px rgba(18, 144, 179, 0.22);
+}
+
+.btn-nav:hover {
+  transform: translateY(-2px);
+}
+
+.hero {
+  padding-top: 58px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+}
+
+.hero-copy {
+  background: linear-gradient(160deg, #ffffff 0%, #eef5ff 64%, #deebff 100%);
+  border: 1px solid rgba(31, 95, 168, 0.12);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(28px, 5vw, 52px);
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  color: var(--navy-strong);
+  background: rgba(31, 95, 168, 0.1);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.hero h1 {
+  margin: 14px 0 0;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 1.12;
+  color: #102e55;
+  max-width: 16ch;
+}
+
+.hero p {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: clamp(16px, 2vw, 19px);
+  max-width: 60ch;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.btn-primary {
+  padding: 13px 20px;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--teal), #239bbf);
+  box-shadow: 0 10px 22px rgba(18, 144, 179, 0.24);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--teal-strong), #1a83a3);
+}
+
+.btn-secondary {
+  padding: 13px 20px;
+  color: var(--navy-strong);
+  background: #ffffff;
+  border: 1px solid rgba(31, 95, 168, 0.2);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px var(--ring);
+}
+
+.badge-row {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge-row li {
+  font-size: 13px;
+  color: var(--navy-strong);
+  background: rgba(31, 95, 168, 0.08);
+  border: 1px solid rgba(31, 95, 168, 0.14);
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.hero-card {
+  background: linear-gradient(170deg, #0d2a4f 0%, #1f5fa8 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(24px, 4vw, 34px);
+  align-self: stretch;
+}
+
+.hero-card h2 {
+  margin: 0;
+  font-size: clamp(24px, 3.8vw, 32px);
+  line-height: 1.2;
+}
+
+.hero-card ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.hero-card li {
+  padding-left: 14px;
+  border-left: 3px solid rgba(255, 255, 255, 0.42);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hero-card-note {
+  margin-top: 18px;
+  display: inline-flex;
+  background: rgba(255, 210, 122, 0.28);
+  border: 1px solid rgba(255, 210, 122, 0.72);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 38px);
+  color: #0f2f57;
+}
+
+.section-header p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+.package {
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(31, 95, 168, 0.12);
+  box-shadow: var(--shadow-card);
+  padding: 22px;
+  display: grid;
+  gap: 10px;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.package:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(15, 38, 70, 0.14);
+}
+
+.package--featured {
+  border-color: rgba(18, 144, 179, 0.45);
+  background: linear-gradient(180deg, #ffffff 0%, #f4f9ff 100%);
+}
+
+.package-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.package h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #0f345f;
+}
+
+.package-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(18, 144, 179, 0.12);
+  border: 1px solid rgba(18, 144, 179, 0.28);
+  color: #1a6882;
+}
+
+.package-description {
+  margin: 0;
+  color: var(--muted);
+}
+
+.package-price {
+  margin: 4px 0 0;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 700;
+  color: #11335b;
+}
+
+.package-price small {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.package-features {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.package-features li::before {
+  content: "+ ";
+  color: #0c7896;
+  font-weight: 700;
+}
+
+.package-link {
+  margin-top: 2px;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.package-link:hover {
+  text-decoration: underline;
+}
+
+.package-actions {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.package-link-detail {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy-strong);
+  background: rgba(31, 95, 168, 0.08);
+  border: 1px solid rgba(31, 95, 168, 0.2);
+  text-decoration: none;
+}
+
+.package-link-detail:hover {
+  background: rgba(31, 95, 168, 0.14);
+  text-decoration: none;
+}
+
+.scope-list {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.scope-list li {
+  padding-left: 12px;
+  border-left: 3px solid rgba(31, 95, 168, 0.22);
+}
+
+.pricing-note {
+  margin: 14px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.detail-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.detail-card {
+  background: #ffffff;
+  border: 1px solid rgba(31, 95, 168, 0.15);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  box-shadow: var(--shadow-card);
+  scroll-margin-top: 110px;
+}
+
+.detail-card:target {
+  border-color: rgba(18, 144, 179, 0.6);
+  box-shadow: 0 0 0 4px rgba(18, 144, 179, 0.15), var(--shadow-card);
+}
+
+.detail-card h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #103560;
+}
+
+.detail-meta {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.detail-subtitle {
+  margin: 16px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.detail-list {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.detail-list li {
+  padding-left: 12px;
+  border-left: 3px solid rgba(31, 95, 168, 0.2);
+}
+
+.process-step {
+  background: linear-gradient(160deg, #ffffff 0%, #edf6ff 100%);
+  border: 1px solid rgba(31, 95, 168, 0.14);
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.process-number {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  background: rgba(31, 95, 168, 0.14);
+  color: var(--navy-strong);
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.process-step h3 {
+  margin: 0;
+  color: #103560;
+  font-size: 20px;
+}
+
+.process-step p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.metrics {
+  background: linear-gradient(160deg, #0d2c53 0%, #1a4f88 100%);
+  color: #ffffff;
+  border-radius: var(--radius-lg);
+  padding: clamp(26px, 5vw, 40px);
+  box-shadow: var(--shadow-soft);
+}
+
+.metrics h2 {
+  margin: 0;
+  font-size: clamp(26px, 4vw, 34px);
+}
+
+.metrics p {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 70ch;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.metric-item {
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: 15px;
+}
+
+.metric-value {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.metric-label {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+}
+
+.testimonial {
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid rgba(31, 95, 168, 0.12);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: 22px;
+}
+
+.testimonial blockquote {
+  margin: 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.testimonial figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.faq-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.faq-grid details {
+  background: #ffffff;
+  border: 1px solid rgba(31, 95, 168, 0.15);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.faq-grid summary {
+  font-weight: 700;
+  cursor: pointer;
+  color: #123763;
+}
+
+.faq-grid p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.cta {
+  padding: 60px 0 72px;
+}
+
+.cta-panel {
+  background: linear-gradient(135deg, #ffffff 0%, #eef6ff 100%);
+  border: 1px solid rgba(18, 144, 179, 0.24);
+  border-radius: var(--radius-lg);
+  padding: clamp(24px, 5vw, 42px);
+  display: grid;
+  gap: 10px;
+}
+
+.cta-panel h2 {
+  margin: 0;
+  font-size: clamp(26px, 4vw, 34px);
+  color: #0f365f;
+}
+
+.cta-panel p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.contact-list {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.contact-list a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  border-top: 1px solid rgba(31, 95, 168, 0.14);
+  padding: 22px 0 30px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.floating-wa {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 25;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1290b3, #33adcf);
+  padding: 11px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(18, 144, 179, 0.28);
+}
+
+.floating-wa:hover {
+  transform: translateY(-2px);
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 980px) {
+  .header-row {
+    flex-wrap: wrap;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .section-pad {
+    padding: 52px 0;
+  }
+
+  .nav {
+    gap: 14px;
+  }
+
+  .btn-nav {
+    width: 100%;
+  }
+
+  .floating-wa {
+    right: 12px;
+    bottom: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Johanna Botero Consultoria en Comercio Exterior",
+  "description": "Asesoria profesional en importaciones, exportaciones y cumplimiento normativo para empresas en Colombia.",
+  "areaServed": "Colombia",
+  "telephone": "+57 315 735 8740",
+  "email": "yobiss842@hotmail.com"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido-principal">Saltar al contenido</a>
+
+<div class="top-strip">
+  <div class="container">Respuesta inicial en menos de 24 horas habiles para empresas en Colombia.</div>
+</div>
+
+<header class="site-header">
+  <div class="container header-row">
+    <div class="brand" aria-label="Marca Johanna Botero">
+      <div class="brand-mark" aria-hidden="true">JB</div>
+      <div class="brand-text">
+        <span class="brand-title">Johanna Botero</span>
+        <span class="brand-subtitle">Consultoria en Comercio Exterior</span>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Navegacion principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#detalle-servicios">Detalle</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="btn btn-nav" href="https://wa.me/573157358740" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </div>
+</header>
+
+<main id="contenido-principal">
+  <section class="hero section-pad" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="kicker">Comercio internacional con enfoque ejecutivo</span>
+        <h1>Importa y exporta con control, cumplimiento y rentabilidad</h1>
+        <p>
+          Asesoria especializada para empresas que buscan operar con seguridad en mercados globales,
+          optimizando costos logisticos y reduciendo riesgos normativos ante DIAN y Banco de la Republica.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/573157358740" target="_blank" rel="noopener noreferrer">Solicitar asesoria</a>
+          <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+        </div>
+        <ul class="badge-row">
+          <li>20+ anos de experiencia</li>
+          <li>Acompanamiento integral</li>
+          <li>Metodologia orientada a KPI</li>
+        </ul>
+      </div>
+
+      <aside class="hero-card reveal" aria-label="Alcance de la asesoria inicial">
+        <h2>Primera sesion con ruta clara de accion</h2>
+        <ul>
+          <li>Diagnostico de tu operacion y riesgos criticos.</li>
+          <li>Checklist documental segun tu tipo de carga.</li>
+          <li>Plan de mejora para tiempos, costos y cumplimiento.</li>
+        </ul>
+        <p class="hero-card-note">Sesion inicial de 45 minutos con entregable ejecutivo.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section-pad" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Servicios con estructura y resultado medible</h2>
+        <p>
+          Soluciones disenadas para gerencias de compras, logistica y expansion internacional.
+          Cada proceso se define con objetivos, responsables y evidencias de cumplimiento.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="package reveal">
+          <div class="package-top">
+            <h3>Plan Basico</h3>
+            <span class="package-badge">Inicio</span>
+          </div>
+          <p class="package-description">Ideal para empresas que estan estructurando su primera operacion internacional.</p>
+          <p class="package-price">$1.200.000 <small>COP</small></p>
+          <ul class="package-features">
+            <li>Diagnostico inicial de operacion</li>
+            <li>Clasificacion arancelaria de productos clave</li>
+            <li>Ruta documental y checklist operativo</li>
+          </ul>
+          <div class="package-actions">
+            <a class="package-link-detail" href="#detalle-basico">Ver detalle del servicio</a>
+            <a class="package-link" href="https://wa.me/573157358740?text=Hola%20Johanna%2C%20quiero%20informacion%20del%20Plan%20Basico." target="_blank" rel="noopener noreferrer">Agendar este plan</a>
+          </div>
+        </article>
+
+        <article class="package package--featured reveal">
+          <div class="package-top">
+            <h3>Plan Empresarial</h3>
+            <span class="package-badge">Mas solicitado</span>
+          </div>
+          <p class="package-description">Para companias con operaciones recurrentes que buscan eficiencia y control normativo.</p>
+          <p class="package-price">$2.400.000 <small>COP</small></p>
+          <ul class="package-features">
+            <li>Todo lo del plan Basico</li>
+            <li>Gestion integral de importacion o exportacion</li>
+            <li>Acompanamiento en negociacion internacional</li>
+            <li>Mesa de soporte por 30 dias</li>
+          </ul>
+          <div class="package-actions">
+            <a class="package-link-detail" href="#detalle-empresarial">Ver detalle del servicio</a>
+            <a class="package-link" href="https://wa.me/573157358740?text=Hola%20Johanna%2C%20quiero%20informacion%20del%20Plan%20Empresarial." target="_blank" rel="noopener noreferrer">Agendar este plan</a>
+          </div>
+        </article>
+
+        <article class="package reveal">
+          <div class="package-top">
+            <h3>Plan Premium</h3>
+            <span class="package-badge">Direccion estrategica</span>
+          </div>
+          <p class="package-description">Disenado para empresas con alto volumen que requieren optimizacion integral de su cadena.</p>
+          <p class="package-price">Desde $4.500.000 <small>COP</small></p>
+          <ul class="package-features">
+            <li>Todo lo del plan Empresarial</li>
+            <li>Optimizacion avanzada de cadena de suministro</li>
+            <li>Estudio de mercado internacional aplicado</li>
+            <li>Tablero de indicadores y plan trimestral</li>
+          </ul>
+          <div class="package-actions">
+            <a class="package-link-detail" href="#detalle-premium">Ver detalle del servicio</a>
+            <a class="package-link" href="https://wa.me/573157358740?text=Hola%20Johanna%2C%20quiero%20informacion%20del%20Plan%20Premium." target="_blank" rel="noopener noreferrer">Agendar este plan</a>
+          </div>
+        </article>
+      </div>
+
+      <ul class="scope-list reveal">
+        <li>Servicios puntuales disponibles: clasificacion arancelaria, estudios de mercado y negociacion con proveedores.</li>
+        <li>Modalidad virtual o presencial segun ciudad y alcance.</li>
+      </ul>
+      <p class="pricing-note reveal">*Valores referenciales en COP. La inversion final puede variar segun alcance, volumen de operacion y complejidad normativa.</p>
+    </div>
+  </section>
+
+  <section class="section-pad" id="detalle-servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Detalle de servicios por plan</h2>
+        <p>Aqui puedes revisar alcance, entregables, tiempo estimado y el perfil de empresa recomendado para cada plan.</p>
+      </div>
+
+      <div class="detail-services-grid">
+        <article class="detail-card reveal" id="detalle-basico">
+          <h3>Plan Basico</h3>
+          <p class="detail-meta">Inversion referencial: $1.200.000 COP</p>
+          <p class="detail-subtitle">Alcance</p>
+          <ul class="detail-list">
+            <li>Diagnostico inicial de tu operacion internacional.</li>
+            <li>Clasificacion arancelaria de productos clave.</li>
+            <li>Ruta documental con checklist paso a paso.</li>
+          </ul>
+          <p class="detail-subtitle">Entregables</p>
+          <ul class="detail-list">
+            <li>Informe breve de hallazgos y riesgos.</li>
+            <li>Checklist operativo editable.</li>
+            <li>Recomendaciones de arranque para 30 dias.</li>
+          </ul>
+          <p class="detail-subtitle">Ideal para</p>
+          <ul class="detail-list">
+            <li>Empresas que haran su primera importacion o exportacion.</li>
+            <li>Equipos que necesitan orden documental inicial.</li>
+          </ul>
+        </article>
+
+        <article class="detail-card reveal" id="detalle-empresarial">
+          <h3>Plan Empresarial</h3>
+          <p class="detail-meta">Inversion referencial: $2.400.000 COP</p>
+          <p class="detail-subtitle">Alcance</p>
+          <ul class="detail-list">
+            <li>Todo el alcance del Plan Basico.</li>
+            <li>Gestion integral de importacion o exportacion.</li>
+            <li>Acompanamiento en negociacion internacional.</li>
+            <li>Mesa de soporte por 30 dias.</li>
+          </ul>
+          <p class="detail-subtitle">Entregables</p>
+          <ul class="detail-list">
+            <li>Hoja de ruta operativa por etapa y responsable.</li>
+            <li>Plantillas para control documental y seguimiento.</li>
+            <li>Plan de mejora de tiempos y costos logisticos.</li>
+          </ul>
+          <p class="detail-subtitle">Ideal para</p>
+          <ul class="detail-list">
+            <li>Companias con operaciones recurrentes.</li>
+            <li>Empresas que necesitan control normativo y eficiencia.</li>
+          </ul>
+        </article>
+
+        <article class="detail-card reveal" id="detalle-premium">
+          <h3>Plan Premium</h3>
+          <p class="detail-meta">Inversion referencial: desde $4.500.000 COP</p>
+          <p class="detail-subtitle">Alcance</p>
+          <ul class="detail-list">
+            <li>Todo el alcance del Plan Empresarial.</li>
+            <li>Optimizacion avanzada de cadena de suministro.</li>
+            <li>Estudio de mercado internacional aplicado.</li>
+            <li>Tablero de indicadores y plan trimestral.</li>
+          </ul>
+          <p class="detail-subtitle">Entregables</p>
+          <ul class="detail-list">
+            <li>Mapa de mejora integral de la cadena internacional.</li>
+            <li>Tablero de KPI con seguimiento periodico.</li>
+            <li>Plan estrategico de continuidad trimestral.</li>
+          </ul>
+          <p class="detail-subtitle">Ideal para</p>
+          <ul class="detail-list">
+            <li>Empresas con alto volumen o multiples proveedores.</li>
+            <li>Companias que buscan escalar con gobierno operativo.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" id="proceso">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Proceso de trabajo en 4 etapas</h2>
+        <p>Un flujo simple para que sepas exactamente que se va a hacer, en que tiempo y con que resultado esperado.</p>
+      </div>
+
+      <div class="process-grid">
+        <article class="process-step reveal">
+          <div class="process-number">1</div>
+          <h3>Diagnostico</h3>
+          <p>Revision de operacion, costos y riesgos para encontrar puntos de mejora prioritarios.</p>
+        </article>
+
+        <article class="process-step reveal">
+          <div class="process-number">2</div>
+          <h3>Diseno de ruta</h3>
+          <p>Definicion de estrategia documental, aduanera y logistica con responsables claros.</p>
+        </article>
+
+        <article class="process-step reveal">
+          <div class="process-number">3</div>
+          <h3>Implementacion</h3>
+          <p>Ejecucion acompanada en negociacion, seguimiento de embarques y control de cumplimiento.</p>
+        </article>
+
+        <article class="process-step reveal">
+          <div class="process-number">4</div>
+          <h3>Medicion</h3>
+          <p>Indicadores de tiempos, costos y calidad para mantener una mejora continua operativa.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" id="experiencia">
+    <div class="container metrics reveal">
+      <h2>Trayectoria comprobada en comercio exterior</h2>
+      <p>
+        Tecnico Profesional en Comercio Internacional con mas de dos decadas gestionando operaciones nacionales e internacionales,
+        coordinacion con proveedores globales y cumplimiento regulatorio en Colombia.
+      </p>
+
+      <div class="metric-grid">
+        <div class="metric-item">
+          <p class="metric-value">20+</p>
+          <p class="metric-label">Anos de experiencia</p>
+        </div>
+
+        <div class="metric-item">
+          <p class="metric-value">500+</p>
+          <p class="metric-label">Operaciones gestionadas</p>
+        </div>
+
+        <div class="metric-item">
+          <p class="metric-value">20%</p>
+          <p class="metric-label">Reduccion de costos</p>
+        </div>
+
+        <div class="metric-item">
+          <p class="metric-value">95%</p>
+          <p class="metric-label">Cumplimiento de KPI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" id="resultados">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Resultados que valoran los clientes</h2>
+        <p>Percepcion de empresas que fortalecieron su operacion internacional con acompanamiento estrategico.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <figure class="testimonial reveal">
+          <blockquote>Reducimos tiempos de nacionalizacion y dejamos de perder dinero por errores de clasificacion.</blockquote>
+          <figcaption>Gerencia de Compras, empresa de manufactura</figcaption>
+        </figure>
+
+        <figure class="testimonial reveal">
+          <blockquote>Pasamos de reaccionar a improvisar menos: ahora tenemos un proceso claro para cada embarque.</blockquote>
+          <figcaption>Direccion Logistica, empresa comercializadora</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Preguntas frecuentes</h2>
+        <p>Respuestas rapidas para tomar una decision informada antes de iniciar.</p>
+      </div>
+
+      <div class="faq-grid reveal">
+        <details>
+          <summary>Atiendes empresas fuera de Colombia?</summary>
+          <p>El enfoque principal es Colombia, pero es posible acompanar operaciones internacionales cuando involucran cumplimiento local y coordinacion con proveedores externos.</p>
+        </details>
+        <details>
+          <summary>Puedo contratar solo una asesoria puntual?</summary>
+          <p>Si. Puedes iniciar con una intervencion especifica, por ejemplo clasificacion arancelaria o revision documental, y luego escalar segun necesidad.</p>
+        </details>
+        <details>
+          <summary>Que necesito para empezar?</summary>
+          <p>Informacion basica de tu operacion actual: productos, volumen, proveedores, historial de embarques y objetivos de negocio.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contacto">
+    <div class="container cta-panel reveal">
+      <h2>Agenda una asesoria personalizada</h2>
+      <p>Atencion para empresas que desean importar o exportar con una estrategia profesional y ejecutable.</p>
+      <ul class="contact-list">
+        <li>WhatsApp: <a href="https://wa.me/573157358740" target="_blank" rel="noopener noreferrer">+57 315 735 8740</a></li>
+        <li>Correo: <a href="mailto:yobiss842@hotmail.com">yobiss842@hotmail.com</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  &copy; <span id="year"></span> Johanna Botero. Consultoria en Comercio Internacional.
+</footer>
+
+<a class="floating-wa" href="https://wa.me/573157358740" target="_blank" rel="noopener noreferrer" aria-label="Abrir chat de WhatsApp">WhatsApp</a>
+
+<script>
+(() => {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = String(new Date().getFullYear());
+  }
+
+  const revealItems = [...document.querySelectorAll(".reveal")];
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  if (!prefersReducedMotion && "IntersectionObserver" in window) {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealItems.forEach((item) => revealObserver.observe(item));
+  } else {
+    revealItems.forEach((item) => item.classList.add("is-visible"));
+  }
+
+  const navLinks = [...document.querySelectorAll(".nav a[href^='#']")];
+  const sections = [...document.querySelectorAll("main section[id]")];
+
+  if ("IntersectionObserver" in window && navLinks.length && sections.length) {
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        const id = entry.target.getAttribute("id");
+        navLinks.forEach((link) => {
+          const isCurrent = link.getAttribute("href") === "#" + id;
+          link.classList.toggle("is-active", isCurrent);
+
+          if (isCurrent) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      });
+    }, { rootMargin: "-45% 0px -45% 0px", threshold: 0 });
+
+    sections.forEach((section) => navObserver.observe(section));
+  }
+})();
+</script>
+</body>
+</html>
+
+

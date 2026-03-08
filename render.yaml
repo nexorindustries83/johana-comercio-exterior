@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: johana-comercio-exterior
+    runtime: static
+    buildCommand: echo "No build step required"
+    staticPublishPath: .
